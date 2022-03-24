@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        BankAccount Ba;
-        Ba = new BankAccount();
+        BankAccount ba;
+        ba = new BankAccount();
 
         Fruit f;
         f = new Fruit();
@@ -33,7 +33,7 @@ public class Main {
 
         switch (num){
             case "a":
-                Ba.watchNumber();
+                ba.watchNumber();
                 break;
             case "b":
                 f.bonus();
@@ -42,6 +42,7 @@ public class Main {
                 b.BankName();
                 b.showType();
                 b.watchMoney();
+                break;
             case "d":
                 sp.getPin();
                 sp.getTotalNumbers();

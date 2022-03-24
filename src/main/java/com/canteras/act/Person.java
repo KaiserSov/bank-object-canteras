@@ -8,7 +8,7 @@ public class Person {
     Double height;
 
     //Constructors
-    public Person () {
+    private Person () {
         this.name = "Jon Jr.";
         this.lastName1 = "Doe";
         this.lastName2 = "Smith";

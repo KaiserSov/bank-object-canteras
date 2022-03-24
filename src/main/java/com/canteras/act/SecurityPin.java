@@ -7,7 +7,7 @@ public class SecurityPin {
     Integer TotalNumbers;
 
     //Constructor
-    public SecurityPin () {
+    protected SecurityPin () {
         this.pin = 526973;
         this.help = 5;
         this.TotalNumbers = 6;
