@@ -26,4 +26,9 @@ public class Fruit {
     {
         return this.colors;
     }
+
+    public void bonus ()
+    {
+        System.out.println("We give you a pear");
+    }
 }
