@@ -2,6 +2,10 @@ package com.canteras.act;
 
 import java.util.Scanner;
 
+/**
+ * Representa algunas funciones de una cuenta bancaria
+ * @author Sara Oquendo
+ */
 public class Main {
     public static void main(String[] args) {
         BankAccount ba;

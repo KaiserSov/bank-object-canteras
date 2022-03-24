@@ -7,6 +7,9 @@ public class SecurityPin {
     Integer TotalNumbers;
 
     //Constructor
+    /**
+     * Define los valores de las variables
+     */
     protected SecurityPin () {
         this.pin = 526973;
         this.help = 5;

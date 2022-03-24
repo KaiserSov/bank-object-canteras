@@ -7,6 +7,9 @@ public class Bank {
     String typeBank;
 
     //Constructors
+    /**
+     * Define los valores de las variables
+     */
     public Bank () {
         this.totalMoney = 625714;
         this.bankName = "Bank Solutions";

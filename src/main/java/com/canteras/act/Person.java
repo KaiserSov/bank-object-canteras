@@ -7,7 +7,11 @@ public class Person {
     String lastName2;
     Double height;
 
-    //Constructors
+    //Constructor
+
+    /**
+     * Define los valores de las variables
+     */
     private Person () {
         this.name = "Jon Jr.";
         this.lastName1 = "Doe";

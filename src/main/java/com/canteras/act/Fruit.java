@@ -7,6 +7,9 @@ public class Fruit {
     String colors;
 
     //Constructors
+    /**
+     * Define los valores de las variables
+     */
     public Fruit () {
         this.name = "Pear";
         this.averageWeight = 11.1;

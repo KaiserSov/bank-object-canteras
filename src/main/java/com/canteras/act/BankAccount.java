@@ -6,6 +6,9 @@ public class BankAccount {
     Boolean activated;
 
     //Constructors
+    /**
+     * Define los valores de las variables
+     */
     public BankAccount () {
         this.accountNumber = 625714;
         this.activated = true;
